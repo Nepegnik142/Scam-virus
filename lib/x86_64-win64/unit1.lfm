@@ -1,0 +1,134 @@
+object Form1: TForm1
+  Cursor = crHSplit
+  Left = 300
+  Height = 603
+  Top = 157
+  Width = 965
+  Caption = 'Анти скам машина'
+  ClientHeight = 603
+  ClientWidth = 965
+  DesignTimePPI = 120
+  FormStyle = fsMDIChild
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object GroupBox1: TGroupBox
+    Left = 0
+    Height = 248
+    Top = 0
+    Width = 231
+    Caption = 'GroupBox1'
+    ClientHeight = 223
+    ClientWidth = 227
+    TabOrder = 0
+    object RadioButton1: TRadioButton
+      Left = 8
+      Height = 24
+      Top = 8
+      Width = 115
+      Caption = 'RadioButton1'
+      OnChange = RadioButton1Change
+      TabOrder = 0
+    end
+    object RadioButton2: TRadioButton
+      Left = 8
+      Height = 24
+      Top = 32
+      Width = 115
+      Caption = 'RadioButton2'
+      OnChange = RadioButton2Change
+      TabOrder = 1
+    end
+    object RadioButton3: TRadioButton
+      Left = 8
+      Height = 24
+      Top = 56
+      Width = 115
+      Caption = 'RadioButton3'
+      OnChange = RadioButton3Change
+      TabOrder = 2
+    end
+    object RadioButton4: TRadioButton
+      Left = 8
+      Height = 24
+      Top = 88
+      Width = 115
+      Caption = 'RadioButton4'
+      TabOrder = 3
+    end
+    object RadioButton5: TRadioButton
+      Left = 8
+      Height = 24
+      Top = 120
+      Width = 115
+      Caption = 'RadioButton5'
+      TabOrder = 4
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 448
+    Height = 248
+    Top = 0
+    Width = 231
+    Caption = 'GroupBox2'
+    ClientHeight = 223
+    ClientWidth = 227
+    TabOrder = 1
+    object CheckBox1: TCheckBox
+      Left = 8
+      Height = 24
+      Top = 8
+      Width = 96
+      Caption = 'CheckBox1'
+      TabOrder = 0
+    end
+    object CheckBox2: TCheckBox
+      Left = 8
+      Height = 24
+      Top = 48
+      Width = 96
+      Caption = 'CheckBox2'
+      TabOrder = 1
+    end
+  end
+  object GroupBox3: TGroupBox
+    Left = 224
+    Height = 131
+    Top = 248
+    Width = 231
+    Caption = 'GroupBox3'
+    ClientHeight = 106
+    ClientWidth = 227
+    TabOrder = 2
+    object RadioButton6: TRadioButton
+      Left = 16
+      Height = 24
+      Top = 8
+      Width = 115
+      Caption = 'RadioButton6'
+      TabOrder = 0
+    end
+    object RadioButton7: TRadioButton
+      Left = 16
+      Height = 24
+      Top = 32
+      Width = 115
+      Caption = 'RadioButton7'
+      TabOrder = 1
+    end
+  end
+  object Image1: TImage
+    Left = 8
+    Height = 217
+    Top = 384
+    Width = 536
+    OnClick = Image1Click
+  end
+  object Image2: TImage
+    Left = 464
+    Height = 136
+    Top = 248
+    Width = 433
+    Enabled = False
+    OnClick = Image2Click
+  end
+end
